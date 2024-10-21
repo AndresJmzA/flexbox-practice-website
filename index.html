@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>The Movie Cinema</title>
+		<link
+			rel="stylesheet"
+			href="./style.css"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="main-section">
+			<div class="website-menu">
+				<div class="image-container">
+					<img
+						class="cinema-logo"
+						src="./assets/images/cinema-logo.png"
+						alt="Cinemalogo"
+					/>
+				</div>
+				<div class="menu-items">
+					<a
+						class="menu-link"
+						href=""
+						>Menu</a
+					>
+					<a
+						class="menu-link"
+						href=""
+						>Movies</a
+					>
+					<img
+						id="seach-icon"
+						src="./assets/images/search-512.webp"
+						alt="icon-search"
+					/>
+					<button class="login-button">Login</button>
+				</div>
+				<div class="hamburguer-menu"> <img src="./assets/images/menu-2925825_1280.png" alt="burguer-menu"></div>
+
+			</div>
+			<div class="featured-movie">
+				<div class="poster">
+					<div id="spacer"></div>
+					<div class="white-button-bg">
+						<a
+							class="play-button"
+							href=""
+							><img
+								src="./assets/images/red-play-button-icon.svg"
+								alt="play trailer button"
+						/></a>
+					</div>
+					<div id="movie-details">
+						<ul class="main-movie">
+							<li id="title">Joker: Folie à Deux</li>
+							<li class="information">Duración: 120min</li>
+							<li class="information">Calificación: 4.8</li>
+							<li class="li-button">
+								<button class="login-button">Summary</button>
+							</li>
+							<li class="information"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="poster-section">
+			<h2 class="section-title">This week</h2>
+			<div id="filter-section">
+				<div class="selected-filter" id="active-section"><p>All</p><img src="./assets/images/chevron-right.png" alt=""></div>
+				<div class="unselected-filter" >Action</div>
+				<div class="unselected-filter">Comedy</div>
+				<div class="unselected-filter">Drama</div>
+				<div class="unselected-filter">Family</div>
+				<div class="unselected-filter">Horror</div>
+			</div>
+			<div class="movie-list-grid">
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/AlienPoster.jpg" alt="Alien Poster"></div>
+					<div id="title">Alien: Romulus</div>
+					<div class="information"><p>Duration: 107m</p><p>Genre: Action</p></div>
+				</div>
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/GranTurismPoster.jpg" alt="Gran Turism Poster"></div>
+					<div id="title">Gran Turismo</div>
+					<div class="information"><p>Duration: 120m</p>  <p>Genre: Action</p> </div>
+				</div>
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/Joker.jpg" alt="Joker: Folie à Deux Poster"></div>
+					<div id="title">Joker: Folie à Deux</div>
+					<div class="information"><p>Duration: 140m </p> <p>Genre: Drama</p> </div>
+				</div>
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/MiVillanoPoster.jpg" alt="Despicable Me Poster"></div>
+					<div id="title">Despicable Me 4</div>
+					<div class="information"><p>Duration: 90m</p>  <p>Genre: Family</p> </div>
+				</div>
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/ParallelPoster.jpg" alt="Parallel Poster"></div>
+					<div id="title">Parallel</div>
+					<div class="information"><p>Duration: 115m</p>  <p>Genre: Action</p> </div>
+				</div>
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/Smile2Poster.jpg" alt="Smile2 Poster"></div>
+					<div id="title">Smile 2</div>
+					<div class="information"> <p>Duration: 90m</p>  <p>Genre: Horror</p></div>
+				</div>
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/TrasnformersPsoter.webp" alt="Transformers: Rise of the Beasts"></div>
+					<div id="title">Transformers: Rise of the Beasts</div>
+					<div class="information"><p>Duration: 145min </p> <p>Genre: Action</p>   </div>
+				</div>
+			</div>
+		</div>
+		<div class="poster-section">
+			<h2 class="section-title" id="coming-soon">Coming Soon</h2>
+			<div class="movie-list-grid">
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/TheSubstancePoster.jpg" alt="TheSubstancePoster"></div>
+					<div id="title">The Substance</div>
+					<div class="information"><p>Duration: 140m </p><p>Genre: Horror</p>  </div>
+				</div>
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/BeetlejuicePoster.jpg" alt="Gran Turism Poster"></div>
+					<div id="title">Beetlejuice Beetlejuice</div>
+					<div class="information"><p>Duration: 104m </p> <p>Genre: Horror</p> </div>
+				</div>
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/TheWildRobotPoster.jpg" alt="TheWildRobotPoster"></div>
+					<div id="title">The wild Robot</div>
+					<div class="information"><p>Duration: 101m</p> <p>Genre: Family</p>  </div>
+				</div>
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/DeadpoolWolverinePoster.jpg" alt="Despicable Me Poster"></div>
+					<div id="title">Deadpool & Wolverine</div>
+					<div class="information"><p>Duration: 128m</p> <p>Genre: Action</p> </div>
+				</div>
+				<div class="movie-container"">
+					<div class="vertical-poster-container"><img src="./assets/images/VenmosLastDacePoster.jpg" alt="VenmosLastDacePoster"></div>
+					<div id="title">Venom: The Last Dance</div>
+					<div class="information"><p>Duration: 104m</p> <p>Genre: Action</p>  </div>
+				</div>
+			</div>
+		</div>
+		<div id="divider"></div>
+		<div class="footer-section">
+			<p>Designed and developed by Andrés Jiménez</p> <p>Contact me: c.andresjimenez.a@gmail.com</p>			
+		</div>
+	</body>
+</html>
